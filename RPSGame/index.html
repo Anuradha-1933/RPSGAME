@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon (1).ico">
+</head>
+<body>
+    <h1>ROCK PAPER SCISSOR</h1>
+    <div id="buttons-container">
+    <BUTTON onclick="caputureUserMove('rock'); play();">
+        <img src="rock.png" alt="">
+    </BUTTON>
+    <BUTTON onclick="caputureUserMove('paper'); play();">
+        <img src="paper.png" alt="">
+    </BUTTON>
+    <BUTTON onclick="caputureUserMove('scissor'); play();">
+        <img src="scissors.png" alt="">
+    </BUTTON>
+    <BUTTON onclick="resetgame();">
+        <img src="reset.jpg" alt="reset" id="rst">
+    </BUTTON>
+    </div>
+    <div id="game-summary-container">
+    <h1>Game Summary</h1>
+    <table>
+        <tr>
+            <th >wins</th>
+            <th>looses</th>
+            <th>Ties</th>
+            <th>Games played</th>
+        </tr>
+        <tr>
+            <td id="wins">0</td>
+            <td id="loses">0</td>
+            <td id="ties">0</td>
+            <td id="games_played">0</td>
+        </tr>
+    </table>
+    
+</div>
+<div id="gamehistorycontaineer">
+    <h1>Game History</h1>
+    <table id="gamehistory">
+        <tr>
+            <th>#</th>
+            <th>user move</th>
+            <th>computer move</th>
+            <th>result</th>
+        </tr>
+    </table>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

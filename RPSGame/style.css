@@ -1,0 +1,51 @@
+body
+{
+    background-color: #a7a7eb;
+
+}
+h1{
+    text-align: center;
+}
+
+#gamehistory{   
+    background-color: aliceblue;
+}
+button img{
+    border-radius: 50%;
+    height: 100px;  
+}
+button
+{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    
+}
+table th{
+    background-color: blueviolet;
+    color: white;
+    
+}
+table td{
+    background-color: wheat;
+    text-align: center;
+}
+#rst{
+    height: 50px;
+}
+#buttons-container{
+    display: flex;
+  justify-content: center;
+}
+#game-summary-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    /* align-items: center; */
+}
+#gamehistorycontaineer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    /* align-items: center; */
+}
